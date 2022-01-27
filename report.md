@@ -17,3 +17,14 @@ A non-uniform distribution should have a lower entropy because the there is less
 ### Examples
 - Coin toss: Uniformly distributed (high entropy), either *head* or *tail*. Each side has the same probability of `1/2`.
 - Biased coin toss: Non-uniform distribution (low entropy), either *head* or *tail*. But one side is more likely than the other. Lowest entropy is when one side has a probability of 1, which results in entropy of 0.
+
+## Assignment 3
+|Dataset|a₁           |a₂           |a₃           |a₄           |a₅           |a₆           |
+|-------|-------------|-------------|-------------|-------------|-------------|-------------|
+|MONK-1 | 0.07527255560831925| 0.005838429962909286| 0.00470756661729721| 0.02631169650768228| 0.28703074971578435| 0.0007578557158638421|
+|MONK-2 | 0.0037561773775118823| 0.0024584986660830532| 0.0010561477158920196| 0.015664247292643818| 0.01727717693791797| 0.006247622236881467|
+|MONK-3 | 0.007120868396071844| 0.29373617350838865| 0.0008311140445336207| 0.002891817288654397| 0.25591172461972755| 0.007077026074097326|
+
+- MONK-1: a₅
+- MONK-2: a₅
+- MONK-3: a₂
