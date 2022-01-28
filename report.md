@@ -41,3 +41,25 @@ To get smaller, and therefore maybe more generalized, trees we want to take "ste
 |MONK-2 |1.0          | 0.6921296296296297|
 |MONK-3 |1.0          | 0.9444444444444444|
 
+## Assignment 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
