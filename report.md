@@ -35,8 +35,9 @@ If we look at the equation we can see that if the information gain is maximized,
 To get smaller, and therefore maybe more generalized, trees we want to take "steps" that gives us the most information gain in each step. Therefore it's quite reasonable to use the gain as a heuristic for choosing an attribute for splitting. If we pick an attribute with more gain, we are left with less "surprise".
 
 ## Assignment 5
-|       |E\_train     | E\_test     |
-|-------|-------------|-------------|
-|MONK-1 |             |             |
-|MONK-2 |             |             |
-|MONK-3 |             |             |
+|       |E\_train     | E\_test           |
+|-------|-------------|-------------------|
+|MONK-1 |1.0          | 0.8287037037037037|
+|MONK-2 |1.0          | 0.6921296296296297|
+|MONK-3 |1.0          | 0.9444444444444444|
+
