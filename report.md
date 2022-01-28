@@ -33,3 +33,10 @@ A non-uniform distribution should have a lower entropy because the there is less
 If we look at the equation we can see that if the information gain is maximized, then the entropy of the subsets Sₖ is low.
 
 To get smaller, and therefore maybe more generalized, trees we want to take "steps" that gives us the most information gain in each step. Therefore it's quite reasonable to use the gain as a heuristic for choosing an attribute for splitting. If we pick an attribute with more gain, we are left with less "surprise".
+
+## Assignment 5
+|       |E\_train     | E\_test     |
+|-------|-------------|-------------|
+|MONK-1 |             |             |
+|MONK-2 |             |             |
+|MONK-3 |             |             |
