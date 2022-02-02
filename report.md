@@ -1,7 +1,7 @@
 # Report
 
 ## Assignment 0
-MONK-2 is the hardest to learn because it has the most complex `true` condition with the most different cases. This will lead to lost of "questions".
+MONK-2 is the hardest to learn because it has the most complex `true` condition with the most different cases. This will lead to lost of "questions"/branches.
 
 ## Assignment 1
 |Dataset|Entropy           |
@@ -48,22 +48,4 @@ If we don't prune, we'll have high variance and low bias.
 ## Assignment 7
 See Figure\_1.png
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Figure\_1.png](./Figure_1.png)
