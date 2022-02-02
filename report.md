@@ -45,6 +45,9 @@ To get smaller, and therefore maybe more generalized, trees we want to take "ste
 The more we prune, the higher the bias of the tree gets and the variance gets lower.
 If we don't prune, we'll have high variance and low bias.
 
+## Assignment 7
+See Figure\_1.png
+
 
 
 
