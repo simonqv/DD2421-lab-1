@@ -38,7 +38,7 @@ def partition(data, fraction):
 def prune(tree, val_set):
     prev_best = tree
     while True:
-        best_pruned = max(d.allPruned(prev_best), key=lambda t: d.check(t, val_set)) 
+        best_pruned = max([prev_best, *d.allPruned(prev_best)], key=lambda t: d.check(t, val_set)) 
         if d.check(best_pruned, val_set) > d.check(prev_best, val_set):
             prev_best = best_pruned
         else:
@@ -46,7 +46,7 @@ def prune(tree, val_set):
 
 
 if __name__ == '__main__':
-    iterations = 1000
+    iterations = 10000
     fractions = list(map(lambda i: i/10, range(3,9)))
 
     for dataset, testset, tag in [(m.monk1, m.monk1test, 'monk1'), (m.monk3, m.monk3test, 'monk3')]:
@@ -71,15 +71,15 @@ if __name__ == '__main__':
         plt.plot(fractions, vari, '-o', label=tag)
 
 
-    plt.subplot(1, 2, 2)
-    plt.legend()
-    plt.title('Average/Mean', size=30)
-    plt.xlabel('Fraction', size=20)
-    plt.ylabel('Score', size=20)
     plt.subplot(1, 2, 1)
     plt.legend()
-    plt.title('Variance', size=30)
-    plt.xlabel('Fraction', size=20)
-    plt.ylabel('Score', size=20)
+    plt.title('Average/Mean', size=20)
+    plt.xlabel('Fraction', size=15)
+    plt.ylabel('Score', size=15)
+    plt.subplot(1, 2, 2)
+    plt.legend()
+    plt.title('Variance', size=20)
+    plt.xlabel('Fraction', size=15)
+    plt.ylabel('Score', size=15)
 
     plt.show()
